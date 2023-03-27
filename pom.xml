@@ -8,7 +8,7 @@
 		<!-- <tafjHome>D:\T24\TAFJ</tafjHome>
 		<t24lib>D:\T24\bnk\t24lib</t24lib> -->
 		<tafjHome>${env.TAFJ_HOME}</tafjHome>
-        	<t24lib>${env.T24_HOME}\t24lib</t24lib>
+        	<t24lib>${env.T24_HOME}/t24lib</t24lib>
 		<t24version>22</t24version>
 	</properties>
 	<dependencies>
