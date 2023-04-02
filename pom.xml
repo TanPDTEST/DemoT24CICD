@@ -60,14 +60,14 @@
 			<artifactId>EB_TemplateHook</artifactId>
 			<version>${t24version}</version>
 			<scope>system</scope>
-			<systemPath>${t24lib}/EB_TemplateHook.jar</systemPath>
+			<systemPath>${t24Lib}/EB_TemplateHook.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.temenos.t24</groupId>
 			<artifactId>ST_CurrencyConfig</artifactId>
 			<version>${t24version}</version>
 			<scope>system</scope>
-			<systemPath>${t24lib}/ST_CurrencyConfig.jar</systemPath>
+			<systemPath>${t24Lib}/ST_CurrencyConfig.jar</systemPath>
 		</dependency>
 		<!-- 
 		<dependency>
