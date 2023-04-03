@@ -74,7 +74,7 @@
             <artifactId>EB_Security</artifactId>
             <version>${t24version}</version>
             <scope>system</scope>
-            <systemPath>${t24Lib}/EB_Security.jar</systemPath>
+            <systemPath>${t24lib}/EB_Security.jar</systemPath>
         </dependency>
 		<!-- 
 		<dependency>
