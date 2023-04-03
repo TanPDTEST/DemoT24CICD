@@ -23,7 +23,7 @@ public class DemoCurrencyValidation extends RecordLifecycle {
         for (int i = 0; i < ccyNames.size(); i++) {
             TField ccyName = ccyNames.get(i);
             if ("TESTCCY".equals(ccyName.getValue())) {
-                ccyName.setError("STB demo CI/CD: No TESTCCY value allowed - never");
+                ccyName.setError("STB demo CI/CD: TESTCCY value is forbidden");
                 break;
             }
         }
