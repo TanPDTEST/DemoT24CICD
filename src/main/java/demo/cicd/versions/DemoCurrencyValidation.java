@@ -23,13 +23,10 @@ public class DemoCurrencyValidation extends RecordLifecycle {
         for (int i = 0; i < ccyNames.size(); i++) {
             TField ccyName = ccyNames.get(i);
             if ("TESTCCY".equals(ccyName.getValue())) {
-                ccyName.setError("DEMO CICD: No TESTCCY value allowed");
+                ccyName.setError("STB demo CI/CD: No TESTCCY value allowed");
                 break;
             }
         }
-        // TODO Auto-generated method stub
-//        return super.validateRecord(application, currentRecordId, currentRecord, unauthorisedRecord, liveRecord,
-//                transactionContext);
         return curRec.getValidationResponse();
     }
 
