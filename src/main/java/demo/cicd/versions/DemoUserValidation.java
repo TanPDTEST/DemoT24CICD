@@ -21,7 +21,6 @@ public class DemoUserValidation extends RecordLifecycle {
         TField lgField = curRec.getLanguage();
         if ("4".equals(lgField.getValue())) {
             lgField.setError("Not allow language 4");
-            break;
         }
         return curRec.getValidationResponse();
     }
